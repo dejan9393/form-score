@@ -58,8 +58,10 @@ export class FormScore extends LitElement {
           `;
         })}
 
-        <span>By signing here, I acknowledge that my answers are truthful and accurate</span>
-        <sign-here width="420"></sign-here>
+        <div id="signatureContainer">
+          <span>By signing here, I acknowledge that my answers are truthful and accurate</span>
+          <sign-here width="420"></sign-here>
+        </div>
 
         <mwc-button raised @click=${this.showResults} label="Calculate score"></mwc-button>
 
@@ -135,6 +137,12 @@ FormScore.styles = css `
       font-size: 20px;
       font-weight: 500;
       letter-spacing: 0.15px;
+    }
+
+    #signatureContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     sign-here::part(canvas) {
