@@ -1,0 +1,63 @@
+{
+  "title": "Skin Type Questionnaire",
+  "questions": [
+    {
+      "title": "Question 1",
+      "description": "What is your favourite thing?",
+      "answers": [
+        {
+          "label": "Option 1",
+          "value": 4
+        },
+        {
+          "label": "Option 2",
+          "value": 8
+        },
+        {
+          "label": "Option 3",
+          "value": 12
+        },
+        {
+          "label": "Option 4",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "title": "Question 2",
+      "description": "What about the weather today?",
+      "answers": [
+        {
+          "label": "Option 1",
+          "value": 3
+        },
+        {
+          "label": "Option 2",
+          "value": 6
+        },
+        {
+          "label": "Option 3",
+          "value": 9
+        },
+        {
+          "label": "Option 4",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "title": "Another question",
+      "description": "How easily do you burn?",
+      "answers": [
+        {
+          "label": "Very easily",
+          "value": 3
+        },
+        {
+          "label": "Not so easily",
+          "value": 6
+        }
+      ]
+    }
+  ]
+}
