@@ -21,7 +21,7 @@ export class FormScore extends LitElement {
         this.questions = formConfig.questions;
     }
     loadFormConfig() {
-        return fetch("questions.json").then(response => response.json());
+        return fetch("assets/questions.json").then(response => response.json());
     }
     get multipleChoiceElements() {
         return Array.from(this.shadowRoot.querySelectorAll('multiple-choice'));
