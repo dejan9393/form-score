@@ -17,7 +17,6 @@
 
 # build
 /_site/
-/dist/
 
 storybook-static
 custom-elements.json

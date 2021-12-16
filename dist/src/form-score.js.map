@@ -1,0 +1,1 @@
+{"version":3,"file":"form-score.js","sourceRoot":"","sources":["../../src/form-score.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,gBAAgB,CAAC;AAE3C,cAAc,CAAC,MAAM,CAAC,YAAY,EAAE,SAAS,CAAC,CAAC","sourcesContent":["import { FormScore } from './FormScore.js';\n\ncustomElements.define('form-score', FormScore);\n"]}
