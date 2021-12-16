@@ -22,7 +22,7 @@ let MultipleChoice = class MultipleChoice extends LitElement {
     render() {
         return html `
       ${this.options.map(option => html `<mwc-formfield label="${option.label}">
-          <mwc-radio name="values" value="${option.value}" @change="${this.onChange}" .checked="${true}"></mwc-radio>
+          <mwc-radio name="values" value="${option.value}" @change="${this.onChange}" .checked="${this.value === option.value}"></mwc-radio>
         </mwc-formfield>`)}
     `;
     }

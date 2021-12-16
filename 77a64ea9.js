@@ -320,7 +320,7 @@ const Jt=c`.mdc-touch-target-wrapper{display:inline}.mdc-radio{padding:calc((40p
  * @license
  * Copyright 2018 Google LLC
  * SPDX-License-Identifier: Apache-2.0
- */;let Qt=class extends Kt{};Qt.styles=[Jt],Qt=r([rt("mwc-radio")],Qt);let te=class extends et{constructor(){super(...arguments),this.options=[],this.value=0}onChange(t){this.value=parseFloat(t.target.value),this.dispatchEvent(new CustomEvent("value-changed",{detail:{value:this.value},bubbles:!0,composed:!0}))}render(){return F` ${this.options.map((t=>F`<mwc-formfield label="${t.label}"> <mwc-radio name="values" value="${t.value}" @change="${this.onChange}" .checked="${!0}"></mwc-radio> </mwc-formfield>`))} `}};te.styles=c`:host{display:flex;flex-direction:column}`,r([at({type:Array})],te.prototype,"options",void 0),r([at({type:Number})],te.prototype,"value",void 0),te=r([rt("multiple-choice")],te);
+ */;let Qt=class extends Kt{};Qt.styles=[Jt],Qt=r([rt("mwc-radio")],Qt);let te=class extends et{constructor(){super(...arguments),this.options=[],this.value=0}onChange(t){this.value=parseFloat(t.target.value),this.dispatchEvent(new CustomEvent("value-changed",{detail:{value:this.value},bubbles:!0,composed:!0}))}render(){return F` ${this.options.map((t=>F`<mwc-formfield label="${t.label}"> <mwc-radio name="values" value="${t.value}" @change="${this.onChange}" .checked="${this.value===t.value}"></mwc-radio> </mwc-formfield>`))} `}};te.styles=c`:host{display:flex;flex-direction:column}`,r([at({type:Array})],te.prototype,"options",void 0),r([at({type:Number})],te.prototype,"value",void 0),te=r([rt("multiple-choice")],te);
 /**
  * @license
  * Copyright 2021 Google LLC
